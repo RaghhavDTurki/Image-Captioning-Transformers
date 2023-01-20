@@ -116,7 +116,7 @@ if __name__ == "__main__":
     g = torch.Generator()
     g.manual_seed(SEED)
 
-    apath = Path("/srv/data/guszarzmo/mlproject/data/mscoco_h5/")
+    apath = Path("/srv/data/raghhav/mlproject/data/mscoco_h5/")
     for p in ["train", "val", "test"]:
         img_p = str(apath / f"{p}_images.hdf5")
         cap_p = str(apath / f"{p}_captions.json")
